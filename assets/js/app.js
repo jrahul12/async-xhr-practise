@@ -42,6 +42,12 @@ function fetchAllPost() {
     xhr.send();
 }
 
+
+const onRemove = () =>{
+
+    
+}
+
 function onSubmit(eve) {
     eve.preventDefault();
 
@@ -90,3 +96,6 @@ function onSubmit(eve) {
 
 postForm.addEventListener('submit', onSubmit);
 fetchAllPost();
+
+
+
